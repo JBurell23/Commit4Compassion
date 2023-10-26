@@ -1,0 +1,79 @@
+/******** Main banner ********/
+
+
+.main-banner {
+    background-image: url("/pics/banner1.png");
+    background-size: cover; /* Optionally, set background size to cover the container */
+    background-repeat: no-repeat; /* Optionally, prevent background image from repeating */
+    background-position: center;
+    height: 46vw;
+    /* max-height: 883px; */
+}
+
+.mb-text-container {
+    padding-top: 13vw;
+    margin-left: 15vw;
+}
+
+.mb-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(2rem, 5.2vw, 100px);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.mb-text {
+    font-family: "Avenir", sans-serif;
+    font-size: clamp(1rem, 1.67vw, 32px);
+    width:35%;
+}
+
+.commit-btn {
+    font-family: "poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 35px 15px 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #EE3E2F;
+    color: white;
+}
+
+
+/* Gap property can add anywhere */
+.universal-gap {
+    margin-bottom: 40px;
+}
+
+/* Commit 4 Compassion */
+
+.compassion-container {
+    background-color: #DBDBDB;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* This aligns content vertically in flex comparted to jc that does horizontally */
+}
+
+.cc-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(2rem, 3.75vw, 72px);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.cc-text {
+    font-family: "Avenir", sans-serif;
+    font-size: clamp(1rem, 1.46vw, 28px);
+    line-height: 1.8;
+    width: 69%;
+}
+
+/* 3 Slide Carousel */
+
+.carousel-container {
+    background-color: antiquewhite;
+    height: 31.6vw;
+}
